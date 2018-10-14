@@ -1,6 +1,6 @@
 {
   "name": "ht-convention",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "my convention",
   "main": "index.js",
   "scripts": {
