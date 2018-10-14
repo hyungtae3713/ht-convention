@@ -1,6 +1,6 @@
 {
   "name": "ht-convention",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "my convention",
   "scripts": {
     "prepublishOnly": "git push origin master && npm version patch"
