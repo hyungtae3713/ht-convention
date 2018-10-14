@@ -1,0 +1,19 @@
+{
+  "name": "ht-convention",
+  "version": "0.1.1",
+  "description": "my convention",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyungtae3713/ht-convention.git"
+  },
+  "author": "htkim",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyungtae3713/ht-convention/issues"
+  },
+  "homepage": "https://github.com/hyungtae3713/ht-convention#readme"
+}
