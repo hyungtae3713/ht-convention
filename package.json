@@ -2,7 +2,9 @@
   "name": "ht-convention",
   "version": "1.0.0",
   "description": "my convention",
-  "scripts": {},
+  "scripts": {
+    "prepublishOnly": "git push origin master && npm version patch"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hyungtae3713/ht-convention.git"

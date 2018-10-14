@@ -12,7 +12,7 @@
       }
     ],
     "keyword-spacing": [
-      "true",
+      "error",
       {
         "before": true,
         "after": false,
