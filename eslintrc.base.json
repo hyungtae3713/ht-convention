@@ -1,0 +1,78 @@
+{
+  "extends": "eslint:recommended",
+  "env": {},
+  "parserOptions": {},
+  "rules": {
+    "key-spacing": [
+      "error",
+      {
+        "beforeColon": false,
+        "afterColon": true,
+        "mode": "minimum"
+      }
+    ],
+    "keyword-spacing": [
+      "true",
+      {
+        "before": true,
+        "after": false,
+        "overrides": {
+          "case": {
+            "after": true
+          },
+          "const": {
+            "after": true
+          },
+          "do": {
+            "after": true
+          },
+          "else": {
+            "after": true
+          },
+          "let": {
+            "after": true
+          },
+          "of": {
+            "after": true
+          },
+          "return": {
+            "after": true
+          },
+          "try": {
+            "after": true
+          },
+          "finally": {
+            "after": true
+          }
+        }
+      }
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "ignoreRegExpLiterals": true,
+        "ignoreComments": true
+      }
+    ],
+    "new-parens": "error",
+    "no-console": "warn",
+    "no-constant-condition": [
+      "error",
+      {
+        "checkLoops": false
+      }
+    ],
+    "no-empty": "error",
+    "no-nested-ternary": "error",
+    "no-unused-vars": "error",
+    "one-var": [
+      "error",
+      "never"
+    ],
+    "space-before-function-paren": [
+      "error",
+      "never"
+    ]
+  }
+}

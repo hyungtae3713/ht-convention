@@ -1,2 +1,2 @@
 # ht-convention
-test
+Must install `eslint` to your project.

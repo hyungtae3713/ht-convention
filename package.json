@@ -2,11 +2,7 @@
   "name": "ht-convention",
   "version": "0.1.4",
   "description": "my convention",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "prepublishOnly": "npm version patch && git push origin master"
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+https://github.com/hyungtae3713/ht-convention.git"
