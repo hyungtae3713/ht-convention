@@ -17,6 +17,9 @@
         "before": true,
         "after": false,
         "overrides": {
+          "if": {
+            "after": true
+          },
           "case": {
             "after": true
           },
